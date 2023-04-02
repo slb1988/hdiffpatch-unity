@@ -1,2 +1,3 @@
 build_osx
 build_ios
+*.DS_Store
