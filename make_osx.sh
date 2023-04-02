@@ -5,4 +5,4 @@ cmake -GXcode ../
 cd ..
 cmake --build build_osx --config Release
 mkdir -p Plugins/MacOS/
-cp build_osx/Release/hpatch.bundle Plugins/MacOS/hpatch.bundle
+cp -R build_osx/Release/hpatch.bundle Plugins/MacOS/hpatch.bundle
